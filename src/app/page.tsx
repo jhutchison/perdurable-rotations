@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Coming soon",
@@ -41,6 +42,15 @@ export default function Home() {
         <p className="mt-10 text-sm text-[var(--color-foreground-muted)]">
           Full site <span className="text-[var(--color-foreground)]">coming soon</span>
         </p>
+
+        <div className="mt-10 flex flex-col items-center gap-3 sm:flex-row">
+          <Link
+            href="/contact"
+            className="inline-flex items-center justify-center rounded-lg bg-[var(--color-accent)] px-4 py-2.5 text-sm font-semibold text-[var(--color-accent-contrast)] shadow-[0_10px_25px_rgb(234_88_12_/_0.15)] hover:brightness-110 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-ring)]"
+          >
+            Contact us
+          </Link>
+        </div>
       </div>
     </div>
   );
