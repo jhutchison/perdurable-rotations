@@ -31,8 +31,8 @@ export default function Home() {
         </p>
      
         <p className="mt-6 max-w-md text-base leading-relaxed text-[var(--color-foreground-muted)] sm:text-lg">
-         Doing our part to preserve the magic of analogue. Hunting down specific artists or records on request (specializing in Detroit-based music). 
-         We also making records available at for browsing and purchases at select locations.
+         Doing our part to preserve the magic of analogue in an overly digital world. Hunting down specific artists or records on request (specializing in Detroit-based music). 
+         We also make records available at for browsing and purchase at select locations.
         </p>
       
 
