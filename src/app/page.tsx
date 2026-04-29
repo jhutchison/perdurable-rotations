@@ -26,10 +26,6 @@ export default function Home() {
             className="h-auto w-[min(78vw,20rem)] drop-shadow-[0_12px_32px_rgb(0_0_0_/_0.08)] dark:drop-shadow-[0_12px_40px_rgb(0_0_0_/_0.45)] sm:w-[min(72vw,22rem)]"
           />
         </div>
-        <p className="mt-10 text-xs font-semibold uppercase tracking-[0.35em] text-[var(--color-accent)]">
-          Used vinyl
-        </p>
-     
         <p className="mt-6 max-w-md text-base leading-relaxed text-[var(--color-foreground-muted)] sm:text-lg">
          Doing our part to preserve the magic of analogue in an overly digital world. Hunting down specific artists or records on request (specializing in Detroit-based music). 
          We also make records available at for browsing and purchase at select locations.

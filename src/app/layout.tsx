@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   description:
     "Curated used vinyl — promos, catalog, and checkout coming together on one site.",
   icons: {
-    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
+    icon: [{ url: "/record_only_icon.svg", type: "image/svg+xml" }],
   },
 };
 

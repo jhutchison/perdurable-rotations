@@ -11,8 +11,14 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
         <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-4 px-4 py-4 sm:px-6">
           <Link
             href="/"
-            className="text-lg font-semibold tracking-tight text-[var(--color-foreground)]"
+            className="flex items-center gap-2 text-lg font-semibold tracking-tight text-[var(--color-foreground)]"
           >
+            <img
+              src="/record_only_icon.svg"
+              alt=""
+              aria-hidden="true"
+              className="h-6 w-6"
+            />
             Perdurable Rotations
           </Link>
           <nav aria-label="Primary">
@@ -47,7 +53,15 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
       </main>
       <footer className="border-t border-[var(--color-border)] bg-[var(--color-surface-muted)] px-4 py-8 sm:px-6">
         <div className="mx-auto max-w-5xl text-sm text-[var(--color-foreground-muted)]">
-          <p>Used vinyl — more listings coming soon.</p>
+          <div className="flex items-center gap-2">
+            <img
+              src="/record_only_icon.svg"
+              alt=""
+              aria-hidden="true"
+              className="h-5 w-5"
+            />
+            <p>Keep it analogue.</p>
+          </div>
         </div>
       </footer>
     </>
