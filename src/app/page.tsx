@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Coming soon",
+  title: "Perdurable Rotations",
   description:
-    "Perdurable Rotations — curated used vinyl. Full site and shop experience launching soon.",
+    "Perdurable Rotations — used vinyl preservation and outreach.",
 };
 
 export default function Home() {
