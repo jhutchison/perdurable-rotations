@@ -18,11 +18,14 @@ const dmSerif = DM_Serif_Display({
 
 export const metadata: Metadata = {
   title: {
-    default: "Perdurable Rotations — Used vinyl",
+    default: "Perdurable Rotations",
     template: "%s — Perdurable Rotations",
   },
   description:
     "Curated used vinyl — promos, catalog, and checkout coming together on one site.",
+  icons: {
+    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
+  },
 };
 
 export default function RootLayout({

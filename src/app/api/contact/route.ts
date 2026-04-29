@@ -110,7 +110,7 @@ export async function POST(request: Request) {
     await resend.emails.send({
       from,
       to,
-      subject: `New contact request from ${name}`,
+      subject: `Perdurable Rotations Contact From - ${name}`,
       replyTo: email,
       text: [
         `Name: ${name}`,
