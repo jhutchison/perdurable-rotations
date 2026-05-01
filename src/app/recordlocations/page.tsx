@@ -22,14 +22,14 @@ type RecordLocation = {
 const PLACEHOLDER_LOCATIONS: RecordLocation[] = [
   {
     id: "agricole-popup-5-23",
-    name: "Agricole FarmStop Pop-up",
+    name: "Agricole Farm Stop Pop-up",
     address: "118 N Main St, Chelsea, MI 48118",
     details: "Pop-up crate dig, turntable on premises to listen to your picks",
     upcomingEvent: { title: "Pop-up", date: "Saturday, May 23rd", time: "10am-2pm" },
   },
   {
     id: "agricole-popup-5-30",
-    name: "Agricole FarmStop Pop-up",
+    name: "Agricole Farm Stop Pop-up",
     address: "118 N Main St, Chelsea, MI 48118",
     details: "Pop-up crate dig, turntable on premises to listen to your picks",
     upcomingEvent: { title: "Pop-up", date: "Saturday, May 30th", time: "10am-2pm" },
@@ -38,7 +38,7 @@ const PLACEHOLDER_LOCATIONS: RecordLocation[] = [
     id: "outreach-box-1",
     name: "Vinyl Outreach Crate at Withington's",
     address: "112 Main St, Chelsea, MI 48118",
-    details: "Permanent rotating crate. Ask Jay what's good in beer section.",
+    details: "Permanent rotating crate. Ask Jay what's good in the beer section.",
   },
 ] as const;
 
