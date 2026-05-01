@@ -32,6 +32,22 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
                 </Link>
               </li>
               <li>
+                <Link
+                  href="/recordlocations"
+                  className="text-[var(--color-foreground-muted)] underline-offset-4 hover:text-[var(--color-foreground)] hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-ring)]"
+                >
+                  Locations
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/contact"
+                  className="text-[var(--color-foreground-muted)] underline-offset-4 hover:text-[var(--color-foreground)] hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-ring)]"
+                >
+                  Contact
+                </Link>
+              </li>
+              <li>
                 {/* <Link
                   href="/catalog"
                   className="text-[var(--color-foreground-muted)] underline-offset-4 hover:text-[var(--color-foreground)] hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-ring)]"

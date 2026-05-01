@@ -30,7 +30,7 @@ export default function Home() {
          Doing our part to preserve the magic of analogue in an overly digital world.
          We hunt down and preserve records, and make them available for browsing and purchase at select locations in SE Michigan.
          We are happy to look for specific artists or records on request (specializing in Detroit-based music) and will ship if needed.
-         We are actively looking for new locations to partner with, so if you're interested in hosting an outreach box, please get in touch.
+         We are actively looking for new locations to partner with, so if you&apos;re interested in hosting an outreach box, please get in touch.
          We are also always on the hunt for new records.   
         </p>
       

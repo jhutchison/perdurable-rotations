@@ -13,7 +13,9 @@ export default function ContactPage() {
         Contact us
       </h1>
       <p className="mt-4 text-base leading-relaxed text-[var(--color-foreground-muted)]">
-       Have some vinyl to sell? Something specific you want us to track down? Pitch us a new location for an outreach box, tell us what you're looking for, or just say Hi.
+        Have some vinyl to sell? Something specific you want us to track down?
+        Pitch us a new location for an outreach box, tell us what you&apos;re
+        looking for, or just say hi.
       </p>
 
       <div className="mt-10 rounded-2xl border border-[var(--color-border)] bg-[var(--color-surface)] p-6 shadow-[0_1px_2px_rgb(0_0_0_/_0.06)] sm:p-8">
