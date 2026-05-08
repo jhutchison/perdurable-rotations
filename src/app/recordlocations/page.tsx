@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -58,7 +59,22 @@ function MapLink({ mapUrl }: { mapUrl?: string }) {
 
 export default function RecordLocationsPage() {
   return (
-    <div className="mx-auto w-full max-w-5xl px-4 py-10 sm:px-6 sm:py-14">
+    <div className="relative px-4 py-10 sm:px-6 sm:py-14">
+      <Image
+        src="/motown_label_horizontal.jpeg"
+        alt=""
+        fill
+        priority
+        sizes="100vw"
+        className="-z-20 object-cover object-center"
+        aria-hidden="true"
+      />
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 -z-10 bg-[linear-gradient(to_bottom,rgb(247_244_239_/_0.78),rgb(247_244_239_/_0.64))] dark:bg-[linear-gradient(to_bottom,rgb(12_10_9_/_0.62),rgb(12_10_9_/_0.76))]"
+      />
+
+      <div className="mx-auto w-full max-w-5xl">
       <h1 className="font-[family-name:var(--font-display)] text-3xl font-normal text-[var(--color-foreground)] sm:text-4xl">
         Record Browsing Locations
       </h1>
@@ -131,6 +147,7 @@ export default function RecordLocationsPage() {
           ))}
         </ul>
       </section>
+      </div>
     </div>
   );
 }

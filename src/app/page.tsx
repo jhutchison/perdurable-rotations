@@ -10,7 +10,20 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="flex min-h-[calc(100dvh-12rem)] flex-col items-center justify-center px-6 py-16 sm:min-h-[calc(100dvh-10rem)] sm:py-20">
+    <div className="relative flex min-h-[calc(100dvh-12rem)] flex-col items-center justify-center px-6 py-16 sm:min-h-[calc(100dvh-10rem)] sm:py-20">
+      <Image
+        src="/record_spines.jpeg"
+        alt=""
+        fill
+        priority
+        sizes="100vw"
+        className="-z-20 object-cover object-center"
+        aria-hidden="true"
+      />
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 -z-10 bg-[linear-gradient(to_bottom,rgb(247_244_239_/_0.78),rgb(247_244_239_/_0.64))] dark:bg-[linear-gradient(to_bottom,rgb(12_10_9_/_0.62),rgb(12_10_9_/_0.76))]"
+      />
       <div className="flex w-full max-w-lg flex-col items-center text-center">
         <div
           className="relative isolate"
